@@ -1,5 +1,5 @@
 import { NavigationContainer } from "@react-navigation/native";
-import ProductsStackNav from "./app/navigation/product-stack";
+import ProductsStackNav from "./app/navigation/productsStack";
 
 export default function App() {
   return (

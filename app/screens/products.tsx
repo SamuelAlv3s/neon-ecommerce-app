@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import {
-  View,
   Text,
   FlatList,
   Image,
@@ -9,8 +8,8 @@ import {
   ListRenderItem,
   SafeAreaView,
 } from "react-native";
-import { Product, fetchProducts } from "../services/api";
-import { ProductsPageProps } from "../navigation/product-stack";
+import { Product, fetchProducts } from "@/services/api";
+import { ProductsPageProps } from "../navigation/productsStack";
 
 const Products = ({ navigation }: ProductsPageProps) => {
   const [products, setProducts] = useState<Product[]>([]);
